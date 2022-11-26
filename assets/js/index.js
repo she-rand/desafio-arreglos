@@ -93,15 +93,14 @@ const propiedadesJSON = [
   validaciones=function(input1,input2,input3){
     
     if(isNaN(input1)||isNaN(input2)||isNaN(input3)){
-      mensajeRespuesta.textContent="Todos los inputs deben tener valores numéricos"
+      alert("Todos los inputs deben tener valores numéricos")
       return false
     }
 
     if(input1<0||input2<0||input3<0){
-      mensajeRespuesta.textContent="Todos los inputs deben ser positivos"
+      alert("Todos los inputs deben ser positivos")
       return false
     }
-    mensajeRespuesta.textContent=""
 
     return true
 
