@@ -101,6 +101,8 @@ const propiedadesJSON = [
       mensajeRespuesta.textContent="Todos los inputs deben ser positivos"
       return false
     }
+    mensajeRespuesta.textContent=""
+
     return true
 
   }
